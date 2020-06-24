@@ -150,7 +150,6 @@ summary:hover{
 
 /*contenedor calendario*/
 .calendar{
-	border: 1px solid black;
 	border-radius: 0 0 15px 15px;
 	width: auto;
 	height: auto;

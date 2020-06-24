@@ -155,13 +155,14 @@ summary:hover{
 	height: auto;
 	padding: 10px;
 	margin-top: 20px;
+	background-color: rgba(255,255,255,0.2);
 }
 /*Calendario google*/
 .calendariogoogle{
 	border: 1px solid black;
 	border-radius: 0 0 15px 15px;
-	width:60vh;
-	height:50vh;
+	width: 40vw;
+	height: 60vh;
 	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.8), 0 6px 4px 0 rgba(0, 0, 0, 0.5);
 }
 

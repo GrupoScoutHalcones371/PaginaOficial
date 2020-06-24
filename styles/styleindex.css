@@ -51,7 +51,7 @@ header{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	width: auto;
+	width: 100%;
 	margin-top: 10vh;
 	margin-bottom: 5vh;
 }

@@ -304,11 +304,13 @@
 		justify-content: center;
 		flex-direction: 
 		width: 100%;
-		height: auto;
+		height: 100%;
 	}
 	.header_logo{
-		width: 50vw;
-		height: auto;
+		/*width: 50vw;
+		height: auto;*/
+		width: auto;
+		height: 50vh;
 	}
 
 	.basico{

@@ -214,6 +214,7 @@
 		flex-direction: column;
 		width: 100%;
 		margin-top: 10vh;
+		padding-bottom: 7vh;
 		border:1px solid black;
 		background-color: rgba(200,200,250,0.8);
 		border: none;
@@ -282,8 +283,9 @@
 
 	.imagen{
 		margin: 10px;
-		height: 40vh;
-		width: auto;
+		width: 65vw;
+		height: auto;
+		
 	}
 	/*Ramas*/
 		.familia{

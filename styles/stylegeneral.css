@@ -37,7 +37,7 @@ body::-webkit-scrollbar-thumb{
 	border-radius: 0.5rem;
 }
 /*Computadores*/
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 651px){
 	/*NAVBAR*/
 		/*Estilos Generales del Nav*/
 		nav {
@@ -141,10 +141,6 @@ body::-webkit-scrollbar-thumb{
 		text-align: center;
 		overflow: hidden;
 	}
-	#scrolltop:hover{
-		height: 70px;
-		width: 70px;
-	}
 	.titulomayor{
 		font-size: 4rem;
 		font-family: "Odibee Sans",sans-serif;
@@ -160,6 +156,7 @@ body::-webkit-scrollbar-thumb{
 	}
 	/*Footer*/
 		footer{
+			overflow: hidden;
 			color: white;
 			background: linear-gradient(to bottom, rgba(50,50,50,0.5),rgba(25,25,25,0.5));
 			font-family: "Tenali Ramakrishna", sans-serif;
@@ -246,11 +243,12 @@ body::-webkit-scrollbar-thumb{
 }
 
 /*Dispositivos Móviles*/
-@media only screen and (max-width:899px){
+@media only screen and (max-width:650px){
 	/*NAVBAR*/
 		/*Estilos Generales del Nav*/
 		nav {
 			width: 100vw;
+			z-index: 1;
 		}
 		nav ul{
 			display: flex;
@@ -260,6 +258,7 @@ body::-webkit-scrollbar-thumb{
 			width: 100%;
 			list-style: none;
 			padding: 0;
+			z-index: 1;
 		}
 		nav li{
 			display: flex;
@@ -269,6 +268,7 @@ body::-webkit-scrollbar-thumb{
 			width: 100%;
 			border-bottom: 0.2px solid black;
 			text-align: center;
+			z-index: 1;
 		}
 		nav a{
 			text-decoration: none;
@@ -282,6 +282,7 @@ body::-webkit-scrollbar-thumb{
 			width: auto;
 			flex-wrap: wrap;
 			text-align: center;
+			z-index: 1;
 		}
 		nav > ul{
 			background-color: var(--myBeige);
@@ -340,18 +341,21 @@ body::-webkit-scrollbar-thumb{
 	/*fin decoración*/
 
 	#scrolltop{
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		opacity: 0;
 		position: fixed;
 		bottom: 2vw;
 		right: 2vh;
-		height: 5vh;
-		width: 5vh;
+		height: 4rem;
+		width: 4rem;
 		overflow: hidden;
 
 		border: none;
 		border-radius: 50%;
 
-		font-size: 2rem;
+		font-size: 10vw;
 		font-weight: bold;
 		text-align: center;
 
@@ -360,28 +364,30 @@ body::-webkit-scrollbar-thumb{
 		
 		cursor: pointer;
 		
-		
 		transition: all .5s;
 	}
 	#scrolltop:hover{
 		background-color: var(--myBeige);;
 	}
 	.titulomayor{
-		font-size: 3rem;
+		font-size: 2rem;
 		font-family: "Odibee Sans",sans-serif;
 		color: rgba(189,151,27,0.8);
 		text-shadow: 2px 2px 4px rgb(0,0,0);
 		padding-top: 20px;
+		z-index: 1;
 	}
 
 	.subtitulomayor{
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		font-family: "Odibee Sans",sans-serif;
 		color: rgba(0,0,55,1);
+		z-index: 1;
 	}
 
 	/*Footer*/
 		footer{
+			overflow: hidden;
 			color: white;
 			background: linear-gradient(to bottom, rgba(50,50,50,0.5),rgba(25,25,25,0.5));
 			font-family: "Tenali Ramakrishna", sans-serif;

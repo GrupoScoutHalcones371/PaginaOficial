@@ -271,14 +271,15 @@
 	.switcher{
 		display: flex;
 		width: 90%;
-		justify-content: space-between;
-		overflow: hidden;
+		justify-content: center;
+		position: relative;
 	}
 	.cambio{
-		font-size: 1rem;
+		/*position: absolute;*/
+		font-size: 0;
 		margin-top: 10%;
-		padding: 5px 7px;
-		border-radius: 10px;
+		padding: 10px 10px;
+		border-radius: 25%;
 		border: none;
 		box-shadow: 0 2px 6px black;
 		cursor: pointer;
@@ -289,6 +290,9 @@
 	.cambio:hover{
 		box-shadow: none;
 		opacity: .8;
+	}
+	.switcher .titulomayor{
+		margin-top: 5vh;
 	}
 	.presentacion{
 		display: flex;
@@ -305,10 +309,10 @@
 		height: 100%;
 	}
 	.header_logo{
-		/*width: 50vw;
-		height: auto;*/
-		width: auto;
-		height: 50vh;
+		width: 50vw;
+		height: auto;
+		/*width: auto;
+		height: 50vh;*/
 	}
 
 	.basico{

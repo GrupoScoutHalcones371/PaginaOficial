@@ -2,7 +2,7 @@
 
 
 /*Computadores*/
-@media only screen and (min-width: 651px){
+@media only screen and (min-width: 851px){
 	header{
 		width: 100vw;
 		height: 800px;
@@ -161,7 +161,7 @@
 	}
 }
 /*Dispositivos Móviles*/
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 850px){
 	header{
 		width: 100vw;
 		height: 550px;

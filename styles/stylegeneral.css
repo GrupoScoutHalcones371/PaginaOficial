@@ -37,7 +37,7 @@ body::-webkit-scrollbar-thumb{
 	border-radius: 0.5rem;
 }
 /*Computadores*/
-@media only screen and (min-width: 651px){
+@media only screen and (min-width: 851px){
 	/*NAVBAR*/
 		/*Estilos Generales del Nav*/
 		nav {
@@ -248,7 +248,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 /*Dispositivos Móviles*/
-@media only screen and (max-width:650px){
+@media only screen and (max-width: 850px){
 	/*NAVBAR*/
 		/*Estilos Generales del Nav*/
 		nav {

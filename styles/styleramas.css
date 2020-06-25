@@ -276,10 +276,12 @@
 	}
 	.cambio{
 		/*position: absolute;*/
-		font-size: 0;
+		/*font-size: 0;*/
+		font-size: 1rem;
 		margin-top: 10%;
-		padding: 10px 10px;
-		border-radius: 25%;
+		/*padding: 10px 10px;*/
+		padding: 5px 5px;
+		border-radius: 20px;
 		border: none;
 		box-shadow: 0 2px 6px black;
 		cursor: pointer;

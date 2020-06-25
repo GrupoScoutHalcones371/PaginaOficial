@@ -3,241 +3,480 @@
 
 /*________________________________________________________________________________________*/
 
-.contenedorgeneral{
-	display: flex;
-	justify-content: space-between;
-	width: 90vw;
-	margin-left: 5vw;
-	margin-top: 10vh;
+/*Computadores*/
+@media only screen and (min-width: 651px){
+	.contenedorgeneral{
+		display: flex;
+		justify-content: space-between;
+		width: 90vw;
+		margin-left: 5vw;
+		margin-top: 10vh;
+	}
+	.verticalcontainer{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		width: 80%;
+		margin-top: 5vh;
+		margin-bottom: 5vh;
+		border:1px solid black;
+		background-color: rgba(200,200,250,0.8);
+		border: none;
+		border-radius: 25px;
+		box-shadow: 0 0 10px black;
+		overflow: hidden;
+		padding-bottom: 30px;
+	}
+	.switcher{
+		display: flex;
+		width: 80%;
+		/*border: 1px solid black;*/
+		justify-content: space-between;
+		align-items: center;
+	}
+	.cambio{
+		font-weight: bold;
+		font-size: 1rem;
+		margin-top: 60%;
+		padding: 16px 16px;
+		border-radius: 10px;
+		border: none;
+		box-shadow: 0 2px 6px black;
+		cursor: pointer;
+		color: white;
+		background-color: var(--myBlue);
+		transition: all .4s;
+	}
+	.cambio:hover{
+		box-shadow: none;
+		opacity: .8;
+	}
+	.presentacion{
+		display: flex;
+		justify-content: space-between;
+		width: 80%;
+		height: auto;
+		margin-top: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid gray;
+		/*flex-wrap: wrap;*/
+	}
+	.logosection{
+		display: flex;
+		justify-content: center;
+		width: 40%;
+		height: 100%;
+	}
+	.header_logo{
+		width: auto;
+		height: 30vh;
+	}
+
+	.basico{
+		display: flex;
+		flex-direction: column;	
+		width: 50%;
+		height: auto;
+		justify-content:center;
+		padding: 15px;
+	}
+	.basico p{
+		font-family: "Arial",sans-serif;
+		font-size: 1.5rem;
+		text-align: left;
+	}
+	.basico h2{
+		font-weight: bold;
+		font-size: 2rem;
+	}
+	.unidades{
+		display: flex;
+		justify-content: space-between;
+		width: 80%;
+		border-bottom: 1px solid gray;
+		height: auto;
+		padding: 15px;
+		flex-wrap: wrap;
+	}
+	.unidadiv:hover{
+		opacity: .7;
+	}
+	.unidadiv{
+		display: flex;
+		padding-right: 10px;
+		padding-left: 10px;
+		flex-direction: column;
+		align-items: center;
+		cursor: pointer;
+		transition: all .8s;
+	}
+	.unidad:hover{
+		/*box-shadow: none;*/
+		width: 23vh;
+		height: 23vh;
+	}
+	.unidad{
+		display: flex;
+		width: 20vh;
+		height: 20vh;
+		text-align:center;
+		align-items: center;
+		flex-direction: column;
+		border-radius: 50%;
+		box-shadow: 0 0 16px black;
+		transition: .4s;
+	}
+	.unidadiv p{
+		font-family: "Odibee Sans", sans-serif;
+		text-align: center;
+		color: white;
+		font-size: 3rem;
+		padding: 20px 0 0 0;
+	}
+
+	/*titulo del body de la página*/
+	.title{
+		font-family: "Odibee Sans",sans-serif;
+		color: white;
+		font-size: 6rem;
+		font-weight: bold;
+		padding: 10px 0;
+	}
+
+	/*Parrafos de la historia*/
+	.historia{
+		font-family: "Tenali Ramakrishna",sans-serif;
+		color: rgb(52,52,52);
+		padding: 20px 35px;
+		width: 80%;
+		border-bottom: 1px solid gray;
+	}
+	/*títulos en la  historia*/
+	.historia h2{
+		font-family: "Odibee Sans", sans-serif;
+		text-align: center;
+		color: white;
+		font-size: 3rem;
+		padding: 20px 0 0 0;
+	}
+	/*subtítulos en la  historia*/
+	.historia h3{
+		font-family: "Odibee Sans", sans-serif;
+		font-size: 2rem;
+		padding: 20px 0 0 0;
+	}
+
+	/*Párrafos en la historia*/
+	.historia p{
+		font-weight: bold;
+		font-size: 1.4rem;
+		text-align: justify;
+		margin-top: 20px;
+	}
+	ol li{
+		font-weight: bold;
+		font-size: 1.25rem;
+	}
+
+	.patronoracion{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-weight: bold;
+		font-size: 1.4rem;
+		text-align:center;
+		padding: 20px 0;
+		width: 80%;
+	}
+	.patrono{
+		width: 40%;
+		overflow: hidden;
+		text-align:center;
+		padding: 0 8% 0 8%;
+	}
+	.patronoimg{
+		width: 100%;
+		height: auto;
+		border-radius: 15px;
+	}
+	.oracion{
+		width: 50%;
+	}
+	.oracion h2{
+		padding-bottom: 20px;
+	}
+	.oracion p{
+		text-align: center;
+	}
+
+	.himno{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: bold;
+		font-size: 1.4rem;
+		text-align:center;
+		padding: 20px 0;
+		width: 100%;
+		font-family: "Piedra",sans-serif;
+		color: rgb(50,20,20);
+		background-image: url("../img/pergaminohimno.jpg");
+		background-size: cover;
+		border-radius: 15px;
+		/*flex-wrap: wrap;*/
+	}
+
+	.button{
+		border: none;
+		border-radius: 5px;
+		font-size: 1rem;
+		padding: 5px;
+		background-color: var(--myDarkBeige);
+		box-shadow: 0 2px 6px black;
+		font-weight: bold;
+		cursor: pointer;
+		margin: 15px;
+	}
 }
 
-.verticalcontainer{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	width: 80%;
-	margin-top: 5vh;
-	margin-bottom: 5vh;
-	border:1px solid black;
-	background-color: rgba(200,200,250,0.8);
-	border: none;
-	border-radius: 25px;
-	box-shadow: 0 0 10px black;
-	overflow: hidden;
-	padding-bottom: 30px;
-}
-.switcher{
-	display: flex;
-	width: 80%;
-	/*border: 1px solid black;*/
-	justify-content: space-between;
-	align-items: center;
-}
-.cambio{
-	font-weight: bold;
-	font-size: 1rem;
-	margin-top: 60%;
-	padding: 16px 16px;
-	border-radius: 10px;
-	border: none;
-	box-shadow: 0 2px 6px black;
-	cursor: pointer;
-	color: white;
-	background-color: var(--myBlue);
-	transition: all .4s;
-}
-.cambio:hover{
-	box-shadow: none;
-	opacity: .8;
-}
-.presentacion{
-	display: flex;
-	justify-content: space-between;
-	width: 80%;
-	height: auto;
-	margin-top: 20px;
-	padding-bottom: 20px;
-	border-bottom: 1px solid gray;
-	/*flex-wrap: wrap;*/
-}
-.logosection{
-	display: flex;
-	justify-content: center;
-	width: 40%;
-	height: 100%;
-}
-.header_logo{
-	width: auto;
-	height: 30vh;
-}
+/*Dispositivos Móviles*/
+@media only screen and (max-width: 650px){
+	.contenedorgeneral{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		width: 96vw;
+		margin-left: 2vw;
+		padding-bottom: 20px;
+	}
+	.verticalcontainer{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
+		margin-top: 5vh;
+		margin-bottom: 7vh;
+		border:1px solid black;
+		background-color: rgba(200,200,250,0.8);
+		border: none;
+		border-radius: 25px;
+		box-shadow: 0 0 10px black;
+		overflow: hidden;
+		padding-bottom: 30px;
+		position: relative;
+		text-align: center;
+	}
+	.switcher{
+		display: flex;
+		width: 90%;
+		justify-content: space-between;
+	}
+	.cambio{
+		font-size: 1rem;
+		margin-top: 10%;
+		padding: 7px 7px;
+		border-radius: 10px;
+		border: none;
+		box-shadow: 0 2px 6px black;
+		cursor: pointer;
+		color: white;
+		background-color: var(--myBlue);
+		transition: all .4s;
+	}
+	.cambio:hover{
+		box-shadow: none;
+		opacity: .8;
+	}
+	.presentacion{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+		margin-top: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid gray;
+	}
+	.logosection{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+	}
+	.header_logo{
+		width: 50vw;
+		height: auto;
+	}
 
-.basico{
-	display: flex;
-	flex-direction: column;	
-	width: 50%;
-	height: auto;
-	justify-content:center;
-	padding: 15px;
-}
-.basico p{
-	font-family: "Arial",sans-serif;
-	font-size: 1.5rem;
-	text-align: left;
-}
-.basico h2{
-	font-weight: bold;
-	font-size: 2rem;
-}
-.unidades{
-	display: flex;
-	justify-content: space-between;
-	width: 80%;
-	border-bottom: 1px solid gray;
-	height: auto;
-	padding: 15px;
-	flex-wrap: wrap;
-}
-.unidadiv:hover{
-	opacity: .7;
-}
-.unidadiv{
-	display: flex;
-	padding-right: 10px;
-	padding-left: 10px;
-	flex-direction: column;
-	align-items: center;
-	cursor: pointer;
-	transition: all .8s;
-}
-.unidad:hover{
-	/*box-shadow: none;*/
-	width: 23vh;
-	height: 23vh;
-}
-.unidad{
-	display: flex;
-	width: 20vh;
-	height: 20vh;
-	text-align:center;
-	align-items: center;
-	flex-direction: column;
-	border-radius: 50%;
-	box-shadow: 0 0 16px black;
-	transition: .4s;
-}
-.unidadiv p{
-	font-family: "Odibee Sans", sans-serif;
-	text-align: center;
-	color: white;
-	font-size: 3rem;
-	padding: 20px 0 0 0;
-}
+	.basico{
+		display: flex;
+		flex-direction: column;
+		justify-content:center;
+		width: 100%;
+		height: auto;
+		padding: 15px;
+	}
+	.basico h2{
+		font-weight: bold;
+		font-size: 2rem;
+	}
+	.basico p{
+		font-family: "Arial",sans-serif;
+		font-size: 1.5rem;
+		text-align: left;
+	}
+	/*titulo del body de la página*/
+	.title{
+		font-family: "Odibee Sans",sans-serif;
+		color: white;
+		font-size: 3rem;
+		font-weight: bold;
+		padding: 10px 0;
+	}
 
-/*titulo del body de la página*/
-.title{
-	font-family: "Odibee Sans",sans-serif;
-	color: white;
-	font-size: 6rem;
-	font-weight: bold;
-	padding: 10px 0;
-}
+	.unidades{
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+		border-bottom: 1px solid gray;
+		height: auto;
+		flex-wrap: wrap;
+	}
+	.unidadiv:hover{
+		opacity: .7;
+	}
+	.unidadiv{
+		display: flex;
+		padding: 0 8px;
+		flex-direction: column;
+		align-items: center;
+		cursor: pointer;
+		transition: all .8s;
+	}
+	.unidadiv p{
+		font-family: "Odibee Sans", sans-serif;
+		text-align: center;
+		color: white;
+		font-size: 2rem;
+		padding: 20px 0 0 0;
+	}
+	.unidad{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 20vw;
+		height: 20vw;
+		text-align:center;
+		border-radius: 50%;
+		box-shadow: 0 0 16px black;
+		transition: .4s;
+	}
+	.unidad:hover{
+		box-shadow: none;
+		width: 23vw;
+		height: 23vw;
+	}
+	
+	/*Parrafos de la historia*/
+	.historia{
+		font-family: "Tenali Ramakrishna",sans-serif;
+		color: rgb(52,52,52);
+		padding: 0 10px;
+		width: 100%;
+		border-bottom: 1px solid gray;
+	}
+	/*títulos en la  historia*/
+	.historia h2{
+		font-family: "Odibee Sans", sans-serif;
+		text-align: center;
+		color: white;
+		font-size: 2rem;
+		padding: 20px 0 0 0;
+	}
+	/*subtítulos en la  historia*/
+	.historia h3{
+		font-family: "Odibee Sans", sans-serif;
+		font-size: 1.6rem;
+		padding: 16px 0 0 0;
+	}
 
-/*Parrafos de la historia*/
-.historia{
-	font-family: "Tenali Ramakrishna",sans-serif;
-	color: rgb(52,52,52);
-	padding: 20px 35px;
-	width: 80%;
-	border-bottom: 1px solid gray;
-}
-/*títulos en la  historia*/
-.historia h2{
-	font-family: "Odibee Sans", sans-serif;
-	text-align: center;
-	color: white;
-	font-size: 3rem;
-	padding: 20px 0 0 0;
-}
-/*subtítulos en la  historia*/
-.historia h3{
-	font-family: "Odibee Sans", sans-serif;
-	font-size: 2rem;
-	padding: 20px 0 0 0;
-}
+	/*Párrafos en la historia*/
+	.historia p{
+		font-weight: bold;
+		font-size: 1rem;
+		text-align: justify;
+		margin-top: 6px;
+	}
+	ol li{
+		font-weight: bold;
+		font-size: 1.25rem;
+	}
 
-/*Párrafos en la historia*/
-.historia p{
-	font-weight: bold;
-	font-size: 1.4rem;
-	text-align: justify;
-	margin-top: 20px;
-}
-ol li{
-	font-weight: bold;
-	font-size: 1.25rem;
-}
+	.patronoracion{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column-reverse;
+		font-weight: bold;
+		text-align:center;
+		padding: 20px 0;
+		width: 100%;
+	}
+	.patrono{
+		width: 100%;
+		overflow: hidden;
+		text-align:center;
+		padding: 4% 8% 0 8%;
+	}
+	.patronoimg{
+		width: 100%;
+		height: auto;
+		border-radius: 15px;
+	}
+	.oracion{
+		width: 100%;
+	}
+	.oracion h2{
+		padding-bottom: 20px;
+		font-size: 1.25rem;
+	}
+	.oracion p{
+		text-align: center;
+		font-size: 1rem;
+	}
 
-.patronoracion{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	font-weight: bold;
-	font-size: 1.4rem;
-	text-align:center;
-	padding: 20px 0;
-	width: 80%;
-}
-.patrono{
-	width: 40%;
-	overflow: hidden;
-	text-align:center;
-	padding: 0 8% 0 8%;
-}
-.patronoimg{
-	width: 100%;
-	height: auto;
-	border-radius: 15px;
-}
-.oracion{
-	width: 50%;
-}
-.oracion h2{
-	padding-bottom: 20px;
-}
-.oracion p{
-	text-align: center;
-}
+	.himno{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align:center;
+		width: 100%;
+		margin-top: 6px;
+		margin-bottom: 24px;
+		padding-bottom: 10px;
+		font-family: "Piedra",sans-serif;
+		color: rgb(50,20,20);
+		background-image: url("../img/pergaminohimno.jpg");
+		background-size: cover;
+		border-radius: 15px;
+	}
+	.himno .oracion p{
+		font-size: 1rem;
+		padding-bottom: 10px;
+	}
 
-.himno{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-weight: bold;
-	font-size: 1.4rem;
-	text-align:center;
-	padding: 20px 0;
-	width: 100%;
-	font-family: "Piedra",sans-serif;
-	color: rgb(50,20,20);
-	background-image: url("../img/pergaminohimno.jpg");
-	background-size: cover;
-	border-radius: 15px;
-	/*flex-wrap: wrap;*/
-}
-
-.button{
-	border: none;
-	border-radius: 5px;
-	font-size: 1rem;
-	padding: 5px;
-	background-color: var(--myDarkBeige);
-	box-shadow: 0 2px 6px black;
-	font-weight: bold;
-	cursor: pointer;
-	margin: 15px;
-}
-
-/*el responsive*/
-@media only screen and (max-width: 600px){
+	.button{
+		border: none;
+		border-radius: 5px;
+		font-size: 1rem;
+		padding: 5px;
+		background-color: var(--myDarkBeige);
+		box-shadow: 0 2px 6px black;
+		font-weight: bold;
+		cursor: pointer;
+		margin: 15px;
+	}
 }

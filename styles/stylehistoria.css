@@ -22,7 +22,6 @@
 		flex-direction: column;
 		text-align: center;
 	}
-
 	.header_logo{
 		margin-top: 5%;
 		width: 300px;
@@ -191,7 +190,6 @@
 		width: 160px;
 		height: 160px;
 	}
-
 	.wave{
 		position: absolute;
 		bottom: 0;
@@ -201,7 +199,8 @@
 	/*________________________________________________________________________________________*/
 	.contenedorgeneral{
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
+		flex-direction: column;
 		width: 96vw;
 		margin-left: 2vw;
 		overflow: hidden;
@@ -213,7 +212,6 @@
 		align-items: center;
 		flex-direction: column;
 		width: 100%;
-		margin-top: 10vh;
 		padding-bottom: 7vh;
 		border:1px solid black;
 		background-color: rgba(200,200,250,0.8);
@@ -276,8 +274,8 @@
 	/*Párrafos en la historia*/
 	.historia p{
 		font-weight: bold;
-		font-size: 1rem;
 		text-align: justify;
+		font-size: 1rem;
 		margin-top: 6px;
 	}
 

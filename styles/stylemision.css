@@ -1,145 +1,256 @@
 @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
 
-header{
-	width: 100vw;
-	height: 800px;
-	background: #bc4e9c;
-	background: -webkit-linear-gradient(to bottom, rgba(115,194,251,0.5),rgba(65,144,200,0.46)),URL("../img/fondomision.jpg");
-	background: linear-gradient(to bottom, rgba(115,194,251,0.5),rgba(65,144,200,0.46)),URL("../img/fondomision.jpg");
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	position: relative;
-}
+/*Computador*/
+@media only screen and (min-width: 651px){
+	header{
+		width: 100vw;
+		height: 800px;
+		background: #bc4e9c;
+		background: -webkit-linear-gradient(to bottom, rgba(115,194,251,0.5),rgba(65,144,200,0.46)),URL("../img/fondomision.jpg");
+		background: linear-gradient(to bottom, rgba(115,194,251,0.5),rgba(65,144,200,0.46)),URL("../img/fondomision.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		position: relative;
+	}
 
-.logosection{
-	display: flex;
-	height: auto;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	text-align: center;
-}
+	.logosection{
+		display: flex;
+		height: auto;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+	}
 
-.header_logo{
-	margin-top: 5%;
-	width: 300px;
-	height: 300px;
-}
+	.header_logo{
+		margin-top: 5%;
+		width: 300px;
+		height: 300px;
+	}
 
-.wave{
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	fill: var(--myBlue);
-}
+	.wave{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		fill: var(--myBlue);
+	}
 
-/*Calendario y Lista de Eventos*/
-.contenedorgeneral{
-	display: flex;
-	justify-content: space-between;
-	width: 90vw;
-	margin-left: 5vw;
-	margin-top: 10vh;
-}
+	/*Calendario y Lista de Eventos*/
+	.contenedorgeneral{
+		display: flex;
+		justify-content: space-between;
+		width: 90vw;
+		margin-left: 5vw;
+		margin-top: 10vh;
+	}
 
-.verticalcontainer{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	width: 100%;
-	margin-top: 10vh;
-	border:1px solid black;
-	background-color: rgba(200,200,250,0.8);
-	border: none;
-	border-radius: 25px;
-	padding-bottom: 40px;
-	box-shadow: 0 0 6px black;
-}
+	.verticalcontainer{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
+		margin-top: 10vh;
+		border:1px solid black;
+		background-color: rgba(200,200,250,0.8);
+		border: none;
+		border-radius: 25px;
+		padding-bottom: 40px;
+		box-shadow: 0 0 6px black;
+	}
 
-/*titulo del body de la página*/
-.title{
-	font-family: "Odibee Sans",sans-serif;
-	color: white;
-	font-size: 6rem;
-	font-weight: bold;
-	padding: 10px 0;
-}
+	/*titulo del body de la página*/
+	.title{
+		font-family: "Odibee Sans",sans-serif;
+		color: white;
+		font-size: 6rem;
+		font-weight: bold;
+		padding: 10px 0;
+	}
 
-/*Indice*/
-.indice{
-	display: inline-block;
-	background-color: rgba(255,255,255,0.5);
-	padding: 15px 15px;
-	border-radius: 15px;
-	width: 15rem;
-	margin-left: 15px;
-}
+	/*Indice*/
+	.indice{
+		display: inline-block;
+		background-color: rgba(255,255,255,0.5);
+		padding: 15px 15px;
+		border-radius: 15px;
+		width: 15rem;
+		margin-left: 15px;
+	}
 
-.indice ul{
-	list-style-type: none;
-}
-.indice ul li{
-	padding-bottom: 8px;
-}
-.indice a{
-	color:rgba(100,10,10,1);
-	font-weight: bold;
-}
-.indice a:hover{
-	color:rgba(250,10,10,.8);
-	font-weight: bold;
-}
+	.indice ul{
+		list-style-type: none;
+	}
+	.indice ul li{
+		padding-bottom: 8px;
+	}
+	.indice a{
+		color:rgba(100,10,10,1);
+		font-weight: bold;
+	}
+	.indice a:hover{
+		color:rgba(250,10,10,.8);
+		font-weight: bold;
+	}
 
 
 
-/*Parrafos de la historia*/
-.historia{
-	font-family: "Tenali Ramakrishna",sans-serif;
-	color: rgb(52,52,52);
-	padding: 20px 35px;
-	width: 80%;
-}
-/*títulos en la  historia*/
-.historia h2{
-	font-family: "Odibee Sans", sans-serif;
-	text-align: center;
-	color: white;
-	font-size: 3rem;
-	padding: 20px 0 0 0;
-}
-/*subtítulos en la  historia*/
-.historia h3{
-	font-family: "Odibee Sans", sans-serif;
-	font-size: 2rem;
-	padding: 20px 0 0 0;
-}
+	/*Parrafos de la historia*/
+	.historia{
+		font-family: "Tenali Ramakrishna",sans-serif;
+		color: rgb(52,52,52);
+		padding: 20px 35px;
+		width: 80%;
+	}
+	/*títulos en la  historia*/
+	.historia h2{
+		font-family: "Odibee Sans", sans-serif;
+		text-align: center;
+		color: white;
+		font-size: 3rem;
+		padding: 20px 0 0 0;
+	}
+	/*subtítulos en la  historia*/
+	.historia h3{
+		font-family: "Odibee Sans", sans-serif;
+		font-size: 2rem;
+		padding: 20px 0 0 0;
+	}
 
-/*Párrafos en la historia*/
-.historia p{
-	font-weight: bold;
-	font-size: 1.4rem;
-	text-align: justify;
-	margin-top: 20px;
-}
+	/*Párrafos en la historia*/
+	.historia p{
+		font-weight: bold;
+		font-size: 1.4rem;
+		text-align: justify;
+		margin-top: 20px;
+	}
 
-.imagen{
-	height: 40vh;
-	width: auto;
+	.imagen{
+		height: 40vh;
+		width: auto;
+	}
+	.button{
+		border: none;
+		border-radius: 5px;
+		font-size: 1rem;
+		padding: 5px;
+		background-color: var(--myDarkBeige);
+		box-shadow: 0 2px 6px black;
+		font-weight: bold;
+		cursor: pointer;
+		margin: 15px;
+	}
 }
-.button{
-	border: none;
-	border-radius: 5px;
-	font-size: 1rem;
-	padding: 5px;
-	background-color: var(--myDarkBeige);
-	box-shadow: 0 2px 6px black;
-	font-weight: bold;
-	cursor: pointer;
-	margin: 15px;
-}
+@media only screen and (max-width: 650px){
+	header{
+		width: 100vw;
+		height: 550px;
+		background:url("../img/fondomision.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		position: relative;
+	}
+	.headeroverlay{
+		background: linear-gradient(to right, rgba(115,194,251,0.46),rgba(65,144,200,0.46));
+		width: 100%;
+		height: 100%;
+	}
+	.logosection{
+		display: flex;
+		height: auto;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+		position: relative;
+	}
+	.header_logo{
+		margin-top: 10%;
+		width: 160px;
+		height: 160px;
+	}
+	.wave{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		fill: var(--myBlue);
+	}
+	/*____________________________________________*/
+	.contenedorgeneral{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		width: 96vw;
+		margin-left: 2vw;
+		padding-bottom: 20px;
+	}
+	.verticalcontainer{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
+		margin-bottom: 7vh;
+		border:1px solid black;
+		background-color: rgba(200,200,250,0.8);
+		border: none;
+		border-radius: 25px;
+		box-shadow: 0 0 6px black;
+	}
+	/*titulo del body de la página*/
+	.title{
+		font-family: "Odibee Sans",sans-serif;
+		color: white;
+		font-size: 4rem;
+		font-weight: bold;
+		padding: 10px 0;
+	}
 
-/*el responsive*/
-@media only screen and (max-width: 600px){
+	/*Parrafos de la historia*/
+	.historia{
+		font-family: "Tenali Ramakrishna",sans-serif;
+		color: rgb(52,52,52);
+		padding: 0 10px;
+		width: 100%;
+	}
+	/*títulos en la  historia*/
+	.historia h2{
+		font-family: "Odibee Sans", sans-serif;
+		text-align: center;
+		color: white;
+		font-size: 2rem;
+		padding: 20px 0 0 0;
+	}
+	/*subtítulos en la  historia*/
+	.historia h3{
+		font-family: "Odibee Sans", sans-serif;
+		font-size: 1.6rem;
+		padding: 16px 0 0 0;
+	}
+	/*Párrafos en la historia*/
+	.historia p{
+		font-weight: bold;
+		font-size: 1rem;
+		text-align: justify;
+		margin-top: 6px;
+	}
+
+	.imagen{
+		margin: 10px;
+		width: 65vw;
+		height: auto;
+	}
+	.button{
+		border: none;
+		border-radius: 5px;
+		font-size: 1rem;
+		padding: 5px;
+		background-color: var(--myDarkBeige);
+		box-shadow: 0 2px 6px black;
+		font-weight: bold;
+		cursor: pointer;
+		margin: 15px;
+	}
 }

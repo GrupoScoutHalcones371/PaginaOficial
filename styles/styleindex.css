@@ -205,13 +205,11 @@
 		flex-direction: column;
 		text-align: center;
 		position: relative;
-		z-index: 1;
 	}
 	.header_logo{
 		margin-top: 10%;
 		width: 160px;
 		height: 160px;
-		z-index: 1;
 	}
 	.wave{
 		position: absolute;

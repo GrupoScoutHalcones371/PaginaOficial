@@ -175,8 +175,8 @@
 	.calendariogoogle{
 		border: 1px solid black;
 		border-radius: 0 0 15px 15px;
-		width: 40vw;
-		height: 60vw;
+		width: 50vw;
+		height: 33vw;
 		box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.8), 0 6px 4px 0 rgba(0, 0, 0, 0.5);
 	}
 }
@@ -187,7 +187,7 @@
 		width: 100vw;
 		height: 650px;
 		background: URL("../img/FondoHalcones.jpg");
-		background-position: -200px -100px;
+		background-position: -200px 0;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		position: relative;

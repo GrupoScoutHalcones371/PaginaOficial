@@ -374,7 +374,7 @@ body::-webkit-scrollbar-thumb{
 		background-color: var(--myBeige);;
 	}
 	.titulomayor{
-		font-size: 2rem;
+		font-size: 1.6rem;
 		font-family: "Odibee Sans",sans-serif;
 		color: rgba(189,151,27,0.8);
 		text-shadow: 2px 2px 4px rgb(0,0,0);
@@ -382,7 +382,7 @@ body::-webkit-scrollbar-thumb{
 		z-index: 1;
 	}
 	.subtitulomayor{
-		font-size: 1.6rem;
+		font-size: 1.3rem;
 		font-family: "Odibee Sans",sans-serif;
 		color: rgba(0,0,55,1);
 		z-index: 1;

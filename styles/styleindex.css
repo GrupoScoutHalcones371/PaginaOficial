@@ -185,7 +185,7 @@
 @media only screen and (max-width: 850px){
 	header{
 		width: 100vw;
-		height: 550px;
+		height: 650px;
 		background: URL("../img/FondoHalcones.jpg");
 		background-position: -200px -100px;
 		background-repeat: no-repeat;

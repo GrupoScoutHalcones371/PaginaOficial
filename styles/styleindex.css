@@ -75,6 +75,11 @@
 		align-items: center;
 		width: 100%;
 	}
+	.modalcontent img{
+		width:80%;
+		height:auto;
+		padding:10px;
+	}
 	.modalcontent h3{
 		padding-top:15px;
 		font-family: cursive;
@@ -293,6 +298,11 @@
 		justify-content: center;
 		align-items: center;
 		width: auto;
+	}
+	.modalcontent img{
+		width:80%;
+		height:auto;
+		padding:10px;
 	}
 	.modalcontent h3{
 		padding-top:15px;

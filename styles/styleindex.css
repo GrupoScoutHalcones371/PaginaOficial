@@ -131,6 +131,11 @@
 		color: white;
 		padding-bottom: 20px;
 	}
+	eventext details li a{
+		font-family: "Tenali Ramakrishna",sans-serif;
+		font-weight: bold;
+		font-size: 1rem;
+	}
 
 	.acargo{
 		text-align: right;
@@ -279,6 +284,11 @@
 		text-align: center;
 		color: white;
 		padding-bottom: 20px;
+	}
+	eventext details li a{
+		font-family: "Tenali Ramakrishna",sans-serif;
+		font-weight: bold;
+		font-size: .7rem;
 	}
 	summary{
 		cursor: pointer;

@@ -6,8 +6,8 @@
 		width: 100vw;
 		height: 800px;
 		background: #bc4e9c;
-		background: -webkit-linear-gradient(to right, rgba(115,194,251,0.46),rgba(65,144,200,0.46)),URL("../img/FondoHalcones.jpg");
-		background: linear-gradient(to right, rgba(115,194,251,0.46),rgba(65,144,200,0.46)),URL("../img/FondoHalcones.jpg");
+		background: -webkit-linear-gradient(to right, rgba(115,194,251,0.46),rgba(65,144,200,0.46)),URL("../img/FondoHalcones.jpeg");
+		background: linear-gradient(to right, rgba(115,194,251,0.46),rgba(65,144,200,0.46)),URL("../img/FondoHalcones.jpeg");
 		background-position: 0 -50px;
 		background-size: cover;
 		background-attachment: fixed;
@@ -379,3 +379,4 @@
 		box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.8), 0 6px 4px 0 rgba(0, 0, 0, 0.5);
 	}
 }
+
